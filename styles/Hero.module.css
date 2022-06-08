@@ -1,0 +1,13 @@
+.carousel{
+    margin-top:8rem;
+}
+#img{
+    min-height:250px;
+    min-width:200px;
+    border-radius-bottom-right:1rem;
+    transform: rotate(10deg);
+    margin-left:10px;
+}
+.style{
+    height:25rem;
+}
