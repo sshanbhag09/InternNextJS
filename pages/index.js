@@ -16,6 +16,7 @@ const Index = () => {
       <About />
       <Footer />
     </Layout>
+    
   )
 }
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-
+import styles from '../styles/About.module.css'
 
 const About = () => {
 
   return (
-    <section className="section bg-light" id="about">
+    <section className={styles.About}>
       <Container>
         <Row className="justify-content-center">
           <Col lg={6} md={8}>

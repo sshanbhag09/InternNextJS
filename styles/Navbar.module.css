@@ -1,0 +1,10 @@
+.Logo{
+    font-family:Lobster;
+    font-size:2rem;
+}
+.NavItem:hover{
+    background-color:rgb(255,237,237);
+    color:black;
+    width:10rem;
+    
+}

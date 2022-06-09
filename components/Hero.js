@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <Container>
-      <Carousel variant="dark" className={style.carousel}>
+      <Carousel variant="dark" className={style.carousel} controls={false}>
       <Carousel.Item>
           <Row className="align-items-center">
             <Col lg={6}>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-
+import styles from "../styles/Books.module.css"
 const FeatureBox = (props) => {
   return (
     <>
     {
       props.features.map((feature, key) =>
       (feature.id % 2 !== 0) ?
-        <Row key={key} className={feature.id === 1 ? "align-items-center" : "align-items-center mt-5"}>
+        <Row key={key} className={feature.id === 1 ? "align-items-center" : "align-items-center mt-5"} id={styles.book}>
           <Col md={5} >
             <div>
               <img src={feature.img} alt="" className="img-fluid d-block mx-auto"/>

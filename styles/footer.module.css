@@ -1,4 +1,14 @@
 .Footer{
-    margin:2px;
+    margin:2rem;
     background-color:#fff;
+
+  }
+  .icons{
+    display:flex;
+    position:relative;
+    
+    align-items:center;
+  }
+  .brand{
+    padding:1rem;
   }

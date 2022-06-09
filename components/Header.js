@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Navbar, Nav, NavItem } from "react-bootstrap";
-
+import style from "../styles/Navbar.module.css"
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
@@ -23,10 +23,11 @@ const Header = () => {
   };
 
   return (
+    <>
     <div className={`header${sticky ? " sticky" : ""}`}>
       <Navbar bg="dark" variant="dark" expand="md" fixed="top">
         <Container fluid="lg">
-          <Navbar.Brand href="/">My Interests</Navbar.Brand>
+          <Navbar.Brand href="/" className={style.Logo}>My Interests</Navbar.Brand>
           
           <Navbar.Toggle onClick={toggle} />
 
@@ -35,13 +36,13 @@ const Header = () => {
               <NavItem>
                 <Nav.Link href="/">Home</Nav.Link>
               </NavItem>
-              <NavItem>
+              <NavItem >
                 <Nav.Link href="#feature">Contact</Nav.Link>
               </NavItem>
-              <NavItem>
-                <Nav.Link href="#service">Services</Nav.Link>
+              <NavItem >
+                <Nav.Link href="#service">Information</Nav.Link>
               </NavItem>
-              <NavItem>
+              <NavItem >
                 <Nav.Link href="#about">About me</Nav.Link>
               </NavItem>
             </Nav>
@@ -49,6 +50,7 @@ const Header = () => {
         </Container>
       </Navbar>
     </div>
+    </>
   );
 };
 

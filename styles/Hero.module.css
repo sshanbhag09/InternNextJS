@@ -1,6 +1,8 @@
 .carousel{
     margin-top:8rem;
+    
 }
+
 #img{
     min-height:250px;
     min-width:200px;
@@ -11,3 +13,15 @@
 .style{
     height:25rem;
 }
+@media only screen and (min-width: 600px and max-width:720px) {
+    .carousel {
+      min-height:26rem;
+    }
+    
+  }
+   @media only screen and (min-width: 720px and max-width:1000px) {
+    .carousel {
+      min-height:30rem;
+    }
+}  
+   

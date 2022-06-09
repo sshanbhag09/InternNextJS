@@ -1,6 +1,22 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../styles/footer.module.css"
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGithubAlt,
+  faGoogle,
+  faFacebook,
+  faTwitter
+} from '@fortawesome/free-brands-svg-icons';
+library.add(
+  
+  faGithubAlt,
+  faGoogle,
+  faFacebook,
+  faTwitter
+);
 const Footer = () => {
   const links = [
     { id : 1, title : "Feature",
@@ -21,7 +37,9 @@ const Footer = () => {
   ];
   
   return (
+
     <section className="footer section" >
+      
       <Container className={styles.Footer}>
         <Row>
           <Col lg="4">
@@ -60,7 +78,20 @@ const Footer = () => {
             </Row>
           </Col>
         </Row>
+        <Row>
+        <section className={styles.icons}>
+    
+      
 
+    
+      <FontAwesomeIcon  className = {styles.brand} icon={faTwitter} size="2x" />
+      <FontAwesomeIcon  className = {styles.brand}icon={faGoogle} size="2x" />
+      <FontAwesomeIcon className = {styles.brand} icon={faFacebook} size="2x" />
+      <FontAwesomeIcon className = {styles.brand} icon={faGithubAlt} size="2x" />
+    </section>
+    
+
+        </Row>
         <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted ">
@@ -68,6 +99,7 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
+        
       </Container>
     </section>
   );
