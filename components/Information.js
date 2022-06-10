@@ -3,14 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Information = () => {
   const services = [
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-  ]
-  
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s" },
+  ] 
   return (
     <section className="section" id="service">
       <Container>
@@ -18,7 +17,7 @@ const Information = () => {
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark"><span className="text-warning">Information</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <p className="text-muted">Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
             </div>
           </Col>
         </Row>
