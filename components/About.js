@@ -30,7 +30,7 @@ const About = () => {
               </Col>
               <Col md={6}>
                 <h4 className="text-dark font-weight-light f-20 mb-3">Our Vision</h4>
-                <p className="text-muted font-weight-light">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                <p className="text-muted font-weight-light">Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
               </Col>
             </Row>
           </Col>

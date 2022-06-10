@@ -15,11 +15,11 @@ const Hero = () => {
                   Excitement
                 </p>
                 <h1 className="mb-4 font-weight-normal line-height-1_4">
-                  It always seems impossible until it's 
+                  It always seems impossible until it&apos;s 
                   <span className="text-primary font-weight-medium"> done</span>
                 </h1>
                 <p className="text-muted mb-4 pb-2">
-                Motivation from our parents makes us feel more confident about the path we pursue. It encourages us to believe in ourselves and make us stronger.Volleyball is a much more relaxed sport, it's not so competitive which is good because you don't have to be so 'on edge' all the time
+                Motivation from our parents makes us feel more confident about the path we pursue. It encourages us to believe in ourselves and make us stronger.Volleyball is a much more relaxed sport, it&apos;s not so competitive which is good because you don&apos;t have to be so &apos;on edge&apos; all the time
                 </p>
                 <a href="#" className="btn btn-warning">
                   Find Out How <span className="ml-2 right-icon">&#8594;</span>
@@ -46,11 +46,11 @@ const Hero = () => {
                   Excitement
                 </p>
                 <h1 className="mb-4 font-weight-normal line-height-1_4">
-                  It always seems impossible until it's 
+                  It always seems impossible until it&apos;s 
                   <span className="text-primary font-weight-medium"> done</span>
                 </h1>
                 <p className="text-muted mb-4 pb-2">
-                Motivation from our parents makes us feel more confident about the path we pursue. It encourages us to believe in ourselves and make us stronger.Volleyball is a much more relaxed sport, it's not so competitive which is good because you don't have to be so 'on edge' all the time
+                Motivation from our parents makes us feel more confident about the path we pursue. It encourages us to believe in ourselves and make us stronger.Volleyball is a much more relaxed sport, it&apos;s not so competitive which is good because you don&apos;t have to be so &apos;on edge&apos; all the time
                 </p>
                 <a href="#" className="btn btn-warning">
                   Find Out How <span className="ml-2 right-icon">&#8594;</span>
